@@ -1,0 +1,4 @@
+WIDTH = 10
+HEIGHT = 20
+SCALE = 30
+FPS = 60
