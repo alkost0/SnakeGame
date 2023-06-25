@@ -5,8 +5,8 @@ from .constants import *
 
 def get_random_element() -> Element:
     return Element(
-        randrange(0, WIDTH)
-        randrange(0, HEIGHT)
+        randrange(0, WIDTH),
+        randrange(0, HEIGHT),
     )
 
 def gen_apple(snake: Snake):

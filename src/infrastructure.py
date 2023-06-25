@@ -51,7 +51,7 @@ class Infrastructure:
         message = self.font.render("GAME OVER", True, pygame.color(GAME_OVER_COLOR))
         self.screen.blit(
             message,
-            message.get_rect(center=((WIDTH // 2) * SCALE), (HEIGHT // 2) * SCALE)
+            message.get_rect(center=((WIDTH // 2) * SCALE, (HEIGHT // 2) * SCALE))
         )
 
     def update_and_tick(self) -> None:
